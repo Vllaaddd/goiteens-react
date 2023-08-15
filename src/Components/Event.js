@@ -49,7 +49,7 @@ export default function Event({data}){
             <StyledText><FaUser size={16} color="blue" className="icons" />{data.speaker}</StyledText>
             <StyledText><MdEvent size={16} color="green" className="icons" />{start}</StyledText>
             <StyledText><FaClock size={16} color="orange" className="icons" />{hours !== 0 && (hours + ' hours ')}{minutes !== 0 && (minutes + ' minutes')}</StyledText>
-            <Type>{data.type}</Type>
+            <Type className={data.type}>{data.type}</Type>
         </StyledEvent>
     )
 }

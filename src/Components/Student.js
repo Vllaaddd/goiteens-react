@@ -21,7 +21,6 @@ const StyledList = styled.ul`
 `;
 
 export default function Student({student}){
-    console.log(student.address);
     return(
         <StyledWrapper>
             <h2>{student.name}</h2>
