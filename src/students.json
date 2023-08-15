@@ -1,0 +1,62 @@
+[
+    {
+      "name": "John Doe",
+      "age": 30,
+      "isStudent": false,
+      "hobbies": ["reading", "cooking", "travelling"],
+      "address": {
+        "city": "New York",
+        "zipCode": "10001"
+      }
+    },
+    {
+      "name": "Jane Smith",
+      "age": 25,
+      "isStudent": true,
+      "hobbies": ["painting", "dancing"],
+      "address": {
+        "city": "Los Angeles",
+        "zipCode": "90001"
+      }
+    },
+    {
+      "name": "Michael Johnson",
+      "age": 45,
+      "isStudent": false,
+      "hobbies": ["golf", "fishing"],
+      "address": {
+        "city": "Chicago",
+        "zipCode": "60601"
+      }
+    },
+    {
+      "name": "Emily Williams",
+      "age": 28,
+      "isStudent": true,
+      "hobbies": ["photography", "gardening"],
+      "address": {
+        "city": "San Francisco",
+        "zipCode": "94101"
+      }
+    },
+    {
+      "name": "David Lee",
+      "age": 35,
+      "isStudent": false,
+      "hobbies": ["swimming", "hiking", "yoga"],
+      "address": {
+        "city": "Miami",
+        "zipCode": "33101"
+      }
+    },
+    {
+      "name": "Sophia Martin",
+      "age": 22,
+      "isStudent": true,
+      "hobbies": ["singing", "coding"],
+      "address": {
+        "city": "Seattle",
+        "zipCode": "98101"
+      }
+    }
+  ]
