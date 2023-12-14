@@ -4,14 +4,17 @@ import './index.css';
 import App from './App';
 import { ThemeProvider } from 'styled-components';
 
-const theme={
-  titleBgColor: '#d6e6f7',
-  titleBorderColor: '#95b2ce',
-  titleColor: '#526271;',
-  eventsBoardBg: '#e2e5ea',
-  eventsBoardBorder: '#b8babe',
-  eventBg: '#fbe5d7',
-  eventBorder: '#ccbaa7',
+const theme = {
+  colors:{
+    textColor: '#000',
+    bgColor: '#fff',
+    warning: 'orange',
+    success: 'green',
+    error: 'red',
+    grey: 'grey',
+    button: '#21a912',
+    accent: ' #7112ba'
+  }
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -31,7 +31,7 @@ export default function Student({student}){
             <StyledList>
                 Hobbies: 
                 {student.hobbies && student.hobbies.map(el => (
-                    <li>{el}</li>
+                    <li key={el}>{el}</li>
                 ))}
             </StyledList>
             <p>Address: {student.address.city}</p>

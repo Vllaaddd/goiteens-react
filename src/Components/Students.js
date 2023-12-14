@@ -16,7 +16,7 @@ export default function Students({students}){
     return(
         <StyledWrapper>
             {students && students.map(student => (
-                <Student student={student} />
+                <Student key={student.name} student={student} />
             ))}
         </StyledWrapper>
     )
